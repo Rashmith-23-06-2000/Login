@@ -1,0 +1,80 @@
+body{
+  margin: 0;
+  padding: 0;
+  background-image: url(pic2.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  font-family: Century Gothic;
+}
+.box{
+  width: 320px;
+  height: 450px;
+  background-color: #020202b3;
+  color: #fff;
+  position: relative;
+  transform: translate(-50%,-50%);
+  left: 50%;
+  top: 50%;
+  right: 90%;
+  padding: 70px 30px;
+  box-sizing: border-box;
+  border-radius: 70px;
+}
+
+.avatar{
+  width: 100px;
+  height: 120px;
+  border-radius: 50%;
+  position: absolute;
+  top: -50px;
+  left: calc(50% - 50px);
+}
+
+h1{
+  margin: 0;
+  padding: 0 0 20px;
+  text-align: center;
+  font-size: 20px;
+}
+.box input{
+  width: 100%;
+  margin-bottom :20px;
+}
+.box input[type="text"],input[type="password"]
+{
+  border:none;
+  border-bottom: 1px solid #fff;
+  background-color: transparent;
+  outline: none;
+  height: 40px;
+  color: #fff;
+  font-size: 16px;
+}
+.box input[type="submit"]{
+  border: none;
+  outline:none;
+  height: 40px;
+  background-color: #0f748d;
+  color: #fff;
+  font-size: 18px;
+  border-radius: 20px;
+  transition: 0.4s ease;
+}
+.box input[type="submit"]:hover{
+  cursor: pointer;
+  background-color: #ffc107;
+  color: rgb(5, 5, 5);
+}
+.box a{
+  text-decoration: blink ;
+  font-size: 15px;
+  line-height: 10px;
+  color: rgb(233, 25, 25);
+
+
+}
+
+.box a:hover{
+  color: #ffc107;
+}
